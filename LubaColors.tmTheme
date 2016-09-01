@@ -10,6 +10,8 @@
 		<string>#75715E</string>
 		<key>foreground</key>
 		<string>#75715E</string>
+		<key>selectionBorder</key>
+		<string>#00ac9c</string>
 	</dict>
 	<key>name</key>
 	<string>LubaColors</string>
@@ -21,17 +23,17 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#272822</string>
+				<string>#252525</string>
 				<key>caret</key>
-				<string>#F8F8F0</string>
+				<string>#FFFF00</string>
 				<key>foreground</key>
-				<string>#F8F8F2</string>
+				<string>#FAFAF8</string>
 				<key>invisibles</key>
-				<string>#49483E</string>
+				<string>#FFFFFF</string>
 				<key>lineHighlight</key>
-				<string>#49483E</string>
+				<string>#1B1B1B</string>
 				<key>selection</key>
-				<string>#49483E</string>
+				<string>#172370</string>
 			</dict>
 		</dict>
 		<dict>
@@ -41,6 +43,10 @@
 			<string>comment</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#000000</string>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#00FF00</string>
 			</dict>
@@ -64,7 +70,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AE81FF</string>
+				<string>#FF00FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -75,7 +81,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AE81FF</string>
+				<string>#A0A000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -88,6 +94,17 @@
 				<key>foreground</key>
 				<string>#AE81FF</string>
 			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Return Type</string>
+			<key>scope</key>
+			<string>meta.return-type.objc</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF8000</string>
+            </dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -108,7 +125,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFFF00</string>
+				<string>#FAF600</string>
 			</dict>
 		</dict>
 		<dict>
@@ -121,7 +138,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#F92672</string>
+				<string>#A09000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -131,10 +148,8 @@
 			<string>storage.type</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#2B91AF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -144,10 +159,8 @@
 			<string>entity.name.class</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>underline</string>
 				<key>foreground</key>
-				<string>#A6E22E</string>
+				<string>#3BA1BF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -160,7 +173,7 @@
 				<key>fontStyle</key>
 				<string>italic underline</string>
 				<key>foreground</key>
-				<string>#A6E22E</string>
+				<string>#2B91AF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -170,10 +183,8 @@
 			<string>entity.name.function</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
-				<string>#A6E22E</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -186,7 +197,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#FD971F</string>
+				<string>#00FFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -199,7 +210,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#F92672</string>
+				<string>#FFFF00</string>
 			</dict>
 		</dict>
 		<dict>
@@ -212,7 +223,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#A6E22E</string>
+				<string>#00FFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -225,7 +236,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -238,7 +249,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#A0A000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -248,10 +259,8 @@
 			<string>support.type, support.class</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#2B91AF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -288,11 +297,66 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#AE81FF</string>
+				<string>#FF8070</string>
 				<key>foreground</key>
-				<string>#F8F8F0</string>
+				<string>#000000</string>
 			</dict>
 		</dict>
+        <dict>
+            <key>name</key>
+            <string>JSON String</string>
+            <key>scope</key>
+            <string>meta.structure.dictionary.json string.quoted.double.json</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#666666</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>diff.header</string>
+            <key>scope</key>
+            <string>meta.diff, meta.diff.header</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#75715E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>diff.deleted</string>
+            <key>scope</key>
+            <string>markup.deleted</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#F92672</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>diff.inserted</string>
+            <key>scope</key>
+            <string>markup.inserted</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#A6E22E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>diff.changed</string>
+            <key>scope</key>
+            <string>markup.changed</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#E6DB74</string>
+            </dict>
+        </dict>
 	</array>
 	<key>uuid</key>
 	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
